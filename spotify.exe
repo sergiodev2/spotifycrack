@@ -1,0 +1,7 @@
+Set wshShell = WScript.CreateObject("WScript.Shell")
+Do
+    WScript.Sleep 1500 
+    wshShell.SendKeys "ere un bollao"
+    WScript.Sleep 1500 
+    wshShell.SendKeys "{ENTER}"
+Loop
